@@ -1,6 +1,6 @@
 name: filter_text
 description: A package to filter sensitive text based on specified categories.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/himanshu-vishwas/filter_text
 repository: https://github.com/himanshu-vishwas/filter_text
 issue_tracker: https://github.com/himanshu-vishwas/filter_text/issues

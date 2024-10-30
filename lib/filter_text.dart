@@ -1,6 +1,7 @@
 library filter_text;
 
 class FilterText {
+
   // Default lists of sensitive words for different categories
   static const List<String> _adultSensitiveWords = [
     'sex',
@@ -120,7 +121,7 @@ class FilterText {
   /// [userProvidedSensitiveWords] specifies a custom list of sensitive words (optional).
   /// [replacement] specifies the string to replace sensitive words with (optional).
   /// [useUserProvidedOnly] specifies whether to use only user-provided sensitive words (optional).
-  String transform(
+  String filter(
       String input, {
         TransformationType? transformationType,
         List<FilterType>? filterTypes, // Allow multiple filter types
