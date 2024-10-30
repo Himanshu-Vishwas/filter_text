@@ -1,0 +1,12 @@
+name: filter_text
+description: A package to filter sensitive text based on specified categories.
+version: 1.0.0
+homepage: https://github.com/himanshu-vishwas/filter_text
+repository: https://github.com/himanshu-vishwas/filter_text
+issue_tracker: https://github.com/himanshu-vishwas/filter_text/issues
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+dev_dependencies:
+  test: ^1.16.0
+  flutter_test:
+    sdk: flutter
